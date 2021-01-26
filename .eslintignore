@@ -1,0 +1,7 @@
+/build/
+/node_modules/
+/dist/
+.history
+build/*.js
+src/assets
+public

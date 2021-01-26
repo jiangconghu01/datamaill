@@ -8,7 +8,9 @@ module.exports = {
     parser: "babel-eslint"
   },
   rules: {
-    "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
-    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off"
+    "no-console": process.env.NODE_ENV === "production" ? "warn" : "warn",
+    "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "warn",
+    'vue/no-deprecated-slot-attribute':'warn',
+    'no-unused-vars':'warn'
   }
 };
